@@ -1,0 +1,92 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #003166;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Corpo da página */
+tbody {
+    font-family: Arial, sans-serif;
+    background-color: #003166;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container do formulário */
+#login {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+}
+
+/* Título do formulário */
+.card-header {
+    text-align: center;
+}
+
+.card-header h2 {
+    color: #007bff;
+}
+
+/* Estilizando campos de entrada e rótulos */
+.card-content-area {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Botão de envio */
+.submit {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+}
+
+.submit:hover {
+    background-color: #0056b3;
+}
+
+/* Link de recuperação de senha */
+.recuperar_senha {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+    margin-top: 10px;
+}
+
+.recuperar_senha:hover {
+    text-decoration: underline;
+}
